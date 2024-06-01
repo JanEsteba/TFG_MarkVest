@@ -1,7 +1,7 @@
 #include <SoftwareSerial.h>
 #include <TinyGPS++.h>
 
-TinyGPSPlus gps;
+TinyGPSPlus gps; 
 SoftwareSerial gpsSerial(4, 3); // RX, TX per al GPS
 
 #include <SoftwareSerial.h>
